@@ -1,0 +1,39 @@
+.brand-font{
+    font-family: monospace;
+    font-size: 1.35rem;
+    margin-left: 20px;
+    color: white;
+}
+@media screen and (min-width: 769px) {
+    .brand-font{
+        font-family: monospace;
+        font-size: 1.45rem;
+        margin-left: 20px;
+        color: white;
+    }    
+}
+@media screen and (min-width: 1024px) {
+    .brand-font{
+        font-family: monospace;
+        font-size: 1.45rem;
+        margin-left: 20px;
+        color: white;
+    }    
+}
+@media screen and (min-width: 1216px) {
+    .brand-font{
+        font-family: monospace;
+        font-size: 1.45rem;
+        margin-left: 20px;
+        color: white;
+    }
+    
+}
+@media screen and (min-width: 1408px) {
+    .brand-font{
+        font-family: monospace;
+        font-size: 1.45rem;
+        margin-left: 20px;
+        color: white;
+    }
+}
