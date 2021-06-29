@@ -1,0 +1,95 @@
+.connection-box{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    height: 2.2rem;
+    padding-left: 20px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.text-connection{
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}
+
+@media screen and (min-width: 769px){
+    .connection-box{
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: 0px;
+        height: 2.1rem;
+        padding-left: 20px;
+        font-size: 1.1rem;
+        font-family: monospace;
+    }
+    
+    .text-connection{
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: relative;
+    }    
+}
+
+@media screen and (min-width: 1024px){
+    .connection-box{
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: 0px;
+        height: 2.2rem;
+        padding-left: 20px;
+        font-size: 1rem;
+        font-family: monospace;
+    }
+    
+    .text-connection{
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: relative;
+    }
+}
+@media screen and (min-width: 1216px){
+    .connection-box{
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: 0px;
+        height: 2.2rem;
+        padding-left: 20px;
+        font-size: 1.1rem;
+        font-family: monospace;
+    }
+    
+    .text-connection{
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: relative;
+    }
+}
+@media screen and (min-width: 1408px){
+    .connection-box{
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: 0px;
+        height: 2.5rem;
+        padding-left: 20px;
+        font-size: 1.25rem;
+        font-family: monospace;
+    }
+    
+    .text-connection{
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: relative;
+    }
+}

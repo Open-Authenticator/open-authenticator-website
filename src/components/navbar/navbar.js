@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="">
       <nav
-      className="navbar is-dark"
+      className="navbar is-dark box-height"
       role="navigation"
       aria-label="main navigation"
     >

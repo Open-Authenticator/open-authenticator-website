@@ -1,15 +1,21 @@
 .brand-font{
     font-family: monospace;
-    font-size: 1.35rem;
-    margin-left: 20px;
+    font-size: 1rem;
+    margin-left: 5px;
     color: white;
+}
+.box-height{
+    height: 2rem;
 }
 @media screen and (min-width: 769px) {
     .brand-font{
         font-family: monospace;
-        font-size: 1.45rem;
+        font-size: 1.2rem;
         margin-left: 20px;
         color: white;
+    }
+    .box-height{
+        height: 3.5rem;
     }    
 }
 @media screen and (min-width: 1024px) {
@@ -18,7 +24,10 @@
         font-size: 1.45rem;
         margin-left: 20px;
         color: white;
-    }    
+    } 
+    .box-height{
+        height: 3.75rem;
+    }     
 }
 @media screen and (min-width: 1216px) {
     .brand-font{
@@ -27,7 +36,9 @@
         margin-left: 20px;
         color: white;
     }
-    
+    .box-height{
+        height: 3.85rem;
+    }    
 }
 @media screen and (min-width: 1408px) {
     .brand-font{
@@ -35,5 +46,8 @@
         font-size: 1.45rem;
         margin-left: 20px;
         color: white;
+    }
+    .box-height{
+        height: 3.85rem;
     }
 }
