@@ -2,7 +2,7 @@
     .img-block{
         flex-grow: 1;
         margin: 0px;
-        background-color: white;
+        background-color: #f1f2f3;
         height: 25vh;
         max-height: 125px;
         margin-top: 10px;
@@ -12,7 +12,7 @@
         display: flex;
     }
     .img-src{
-        height: 100%;
+        height: 90%;
         object-fit: contain;
         position: relative;
     }        
@@ -21,7 +21,7 @@
     .img-block{
         flex-grow: 1;
         margin: 0px;
-        background-color: white;
+        background-color: #f1f2f3;
         height: 30vh;
         max-height: 125px;
         margin-top: 10px;
@@ -31,7 +31,7 @@
         display: flex;
     }
     .img-src{
-        height: 100%;
+        height: 90%;
         object-fit: contain;
         position: relative;
     }        
@@ -42,7 +42,7 @@
     .img-block{
         flex-grow: 1;
         margin: 0px;
-        background-color: white;
+        background-color: #F1F2F3;
         max-height: 190px;
         height: 37.5vh;
         margin-top: 30px;
@@ -59,14 +59,30 @@
 }
 
 @media screen and (min-width: 1024px){
-    
+    .img-block{
+        flex-grow: 1;
+        margin: 0px;
+        background-color: #f1f2f3;
+        max-height: 350px;
+        height: 43vh;
+        margin-top: 90px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .img-src{
+        height: 100%;
+        object-fit: contain;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 1216px){
     .img-block{
         flex-grow: 1;
         margin: 0px;
-        background-color: white;
+        background-color: #f1f2f3;
         max-height: 350px;
         height: 43vh;
         margin-top: 90px;
@@ -86,7 +102,7 @@
     .img-block{
         flex-grow: 1;
         margin: 0px;
-        background-color: white;
+        background-color: #F1F2F3;
         max-height: 390px;
         height: 50vh;
         margin-top: 90px;

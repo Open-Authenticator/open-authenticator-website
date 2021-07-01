@@ -3,7 +3,7 @@ import {IP} from './urls.js';
 
 function checkConnection(){
     return new Promise((resolve,reject)=>{
-        axios.get(IP+"device-status")
+        axios.get(IP+"api/v1/device/status")
         .then((response)=>{
             console.log(response.status)
             resolve('connected')

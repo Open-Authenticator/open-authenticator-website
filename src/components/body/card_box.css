@@ -1,0 +1,315 @@
+.card-top {
+  width: 90%;
+  max-width: 400px;
+  background-color: white;
+  margin: 30px auto;
+  border-color: lightgray;
+  border-width: 0.75px;
+  border-style: solid;
+  box-shadow: 0px 0px 4px 4px #d3d3d3;
+  border-bottom-right-radius: 7.5px;
+  border-bottom-left-radius: 7.5px;
+  border-top-left-radius: 7.5px;
+  border-top-right-radius: 7.5px;
+}
+
+.tab-holder > a {
+  color: #36454f;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: monospace;
+  width: 100%;
+}
+
+.tab-holder > a:active {
+  background-color: lightgray;
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  width: 100%;
+}
+
+.tab-holder > a:hover {
+  color: black;
+  background-color: #f1f2f3;
+}
+
+.button-submit{
+    background-color: black;
+    border-radius: 8px;
+    height: 3rem;
+    color: white;
+    font-family: monospace;
+    width: 95%;
+    margin: 10px auto;
+    position: relative;
+    border: none !important;
+    font-size: 1.2rem;
+    outline: none !important;
+}
+
+.button-submit>button:hover{
+    background-color: black;
+    border-radius: 8px;
+    height: 3rem;
+    color: white;
+    font-family: monospace;
+    width: 95%;
+    margin: 10px auto;
+    position: relative;
+    border: none !important;
+    font-size: 1.2rem;
+    outline: none !important;
+}
+
+.final-center-button>button:hover{
+    background-color: white;
+}
+.active{
+    outline: none;
+    border: none;
+}
+
+.list-holder{
+    width: 90%;
+    max-width: 400px;
+    border-color: lightgray;
+    border-width: 0.75px;
+    border-style: solid;
+    box-shadow: 0px 0px 4px 4px #d3d3d3;
+    border-bottom-right-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+    background-color: white;
+    max-height: 300px;
+    margin: 75px auto;
+    overflow-y: auto;
+}
+
+.form-control{
+    height: 50px;
+    font-size: 1.1rem;
+    font-family: monospace;
+    border-color: black;
+    border-width: 0.25px;
+    border-style: dashed;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    height: 50px;
+    font-size: 1.1rem;
+    font-family: monospace;
+    border-color: black;
+    border-width: 0.25px;
+    border-style: dashed;
+}
+
+.center-text{
+    margin: 10px auto;
+    position: relative;
+    width: 95%;
+}
+
+.label-field{
+    color: black;
+    font-size: 1.1rem;
+    font-family: monospace;
+}
+
+.error-font{
+    font-size: 1rem;
+}
+
+.message-font{
+    font-size: 1rem;
+}
+.show-message-remove{
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.list-item{
+    height: 4.75rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    border-color: darkgray;
+    border-style: dotted;
+    border-width: 2px;
+    position: relative;
+}
+
+.list-name{
+    font-size: 1.275rem;
+    font-family: monospace;
+    margin-left: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.delete-button{
+    background-color: white;
+}
+.v-center{
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.final-center-button{
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: right;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    background-color: white;
+    color: red;
+    border: none;
+    outline: none;
+    padding: 0rem 0rem;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+}
+@media screen and (min-width: 769px){
+    .show-message-remove{
+        font-size: 1.2rem;
+    }
+    .final-center-button{
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .delete-button{
+        background-color: white;
+        height: 2.5rem;
+        color: red;
+        font-weight: 400;
+        font-size: 2rem;
+        position: relative;
+        border-width: 1px;
+        border-color: red;
+        border-style: solid;
+        border-radius: 8px;
+        text-align: center;
+        width: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .list-item{
+        height: 6rem;
+        width: 100%;
+        background-color: white;
+        border-radius: 8px;
+        border-color: darkgray;
+        border-style: dotted;
+        border-width: 2px;
+        position: relative;
+    }
+    .v-center{
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: relative;
+        height: 2.5rem;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+    .list-name{
+        font-size: 1.5rem;
+        font-family: monospace;
+        margin-left: 10px;
+        position: absolute;
+        font-weight: bold;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .message-font{
+        font-size: 1.2rem;
+    }
+    .error-font{
+        font-size: 1.25rem;
+    }
+    .card-top{
+        max-width: 500px;
+    }
+    .list-holder{
+        max-width: 500px;
+        max-height: 275px;
+    }
+    .tab-holder > a {
+        color: #36454f;
+        font-size: 1.35rem;
+        font-weight: 400;
+        font-family: monospace;
+        width: 100%;
+      }
+      
+      .tab-holder > a:active {
+        background-color: lightgray;
+        font-size: 1rem;
+        color: black;
+        font-weight: 500;
+        width: 100%;
+      }
+      
+      .tab-holder > a:hover {
+        color: black;
+        background-color: #f1f2f3;
+      }
+      
+      .button-submit{
+          background-color: black;
+          border-radius: 8px;
+          height: 3.75rem;
+          color: white;
+          font-family: monospace;
+          width: 95%;
+          margin: 10px auto;
+          position: relative;
+          border: none !important;
+          font-size: 1.475rem;
+          outline: none !important;
+      }
+      
+      .button-submit>button:hover{
+          background-color: black;
+          border-radius: 8px;
+          height: 3rem;
+          color: white;
+          font-family: monospace;
+          width: 95%;
+          margin: 10px auto;
+          position: relative;
+          border: none !important;
+          font-size: 1.2rem;
+          outline: none !important;
+      }
+      .form-control:focus{
+          height: 60px;
+          font-size: 1.275rem;
+      }
+      .form-control{
+          height: 60px;
+          font-size: 1.275rem;
+      }
+      .label-field{
+          font-size: 1.275rem;
+      }
+}
