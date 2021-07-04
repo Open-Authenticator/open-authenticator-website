@@ -364,8 +364,13 @@ function Body(props) {
                   }
                 )
                 .catch((err)=>{
-                    setProgress(false);
-                    displayMessage(err.response.data?err.response.data:"An Error Occurred","failed")
+                  setProgress(false);
+                  if(err?.response?.status===500&&err?.response?.data){
+                    displayMessage(err.response.data,"failed")
+                  }
+                  else{
+                    displayMessage("An Error Occurred","failed")
+                  }
                 })
               }}
             />})
@@ -410,7 +415,12 @@ function Body(props) {
               )
               .catch((err)=>{
                   setProgress(false);
-                  displayMessage(err.response.data?err.response.data:"An Error Occurred","failed")
+                  if(err?.response?.status===500&&err?.response?.data){
+                    displayMessage(err.response.data,"failed")
+                  }
+                  else{
+                    displayMessage("An Error Occurred","failed")
+                  }
               })
             }}
             />)
